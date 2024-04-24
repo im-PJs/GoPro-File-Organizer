@@ -18,6 +18,10 @@ Before you get started, make sure you have:
 
 1. Clone this repository or download the script directly.
 2. Place `main.py` in the directory containing your video files.
+3. **BACKUP YOUR FILES** I am not responsible for any data error/loss... There shouldn't be any but BACKUP YOUR FILES ALWAYS!
+4. Open CMD prompt leading to that same folder
+5. run `python main.py` for all of your files to get organized
+6. Any Issue? Run `python main.py -undoLast` to undo everything
 
 ## 🛠 Usage
 
@@ -38,13 +42,6 @@ Made a mistake or need to revert? No problem! Just run:
 ```bash
 python main.py -undoLast
 ```
-
-🔄 This command restores files to their original locations and removes any empty folders created during organization.
-
-## 📝 Example Commands
-
-- **Organize Files**: `python main.py`
-- **Undo Changes**: `python main.py -undoLast`
 
 ## ⚠️ Notes
 
