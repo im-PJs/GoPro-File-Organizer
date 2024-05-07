@@ -58,8 +58,10 @@ def undo_organization(base_path):
     print("Undo complete.")
 
 if __name__ == "__main__":
-    base_directory = 'H:\\Editing\\2024\\Racing\\4 Session NJMP (1st Time)\\Footage'
+    # Use the current directory as the base directory
+    base_directory = os.getcwd()
     if len(sys.argv) > 1 and sys.argv[1] == '-undoLast':
         undo_organization(base_directory)
     else:
         organize_files(base_directory)
+    
